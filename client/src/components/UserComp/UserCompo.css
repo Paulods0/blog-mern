@@ -1,0 +1,18 @@
+.username-container {
+  padding: 0.5rem 0.8rem;
+  margin-left: 0.5rem;
+  background:#000;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 400ms;
+}
+
+.username-container p {
+  color: #fff;
+  font-size: 20;
+  font-weight: 600;
+}
+
+.username-container:hover {
+  scale: 0.5;
+}

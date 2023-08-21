@@ -1,0 +1,57 @@
+h1 {
+  color: #000;
+  text-align: center;
+}
+
+input::placeholder {
+  position: absolute;
+  transition: all 200ms;
+}
+input:focus::placeholder {
+  top: 2px;
+  font-size: 9px;
+  color: #333;
+}
+
+button {
+  width: 100%;
+  padding: 0.5rem;
+  outline: none;
+  color: #fff;
+  background: #000;
+  border: 1px solid #000;
+  border-radius: 4px;
+  transition: all 300ms;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #fff;
+  border: 1px solid black;
+  color: #000;
+  scale: 0.9;
+}
+
+.create-account-link {
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.1rem;
+}
+
+.create-account-link a {
+  color: #000;
+  text-decoration: underline;
+  margin-left: 0.1rem;
+  font-weight: 600;
+  transition: all 300ms;
+  padding: 4px;
+  border-radius: 3px;
+  border: none;
+}
+.create-account-link a:hover {
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+}

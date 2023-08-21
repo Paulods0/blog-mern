@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  color: #222;
+}
+main {
+  padding: 10px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+img {
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+}
+
+form.login,
+form.register {
+  padding: 30px 10px;
+  max-width: 400px;
+  margin: 0 auto;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+form.login button,
+form.register button {
+  transition: all 400ms;
+}
+
+form.login button:hover,
+form.register button:hover {
+  background: #fff;
+  border: 1px solid 000;
+  color: #000;
+  cursor: pointer;
+  width: 100%;
+}
+form.login h1,
+form.register h1 {
+  margin-bottom: 15px;
+  text-align: center;
+  color: black;
+}
+input {
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  /* margin: 0 auto; */
+  padding: 10px;
+  margin-bottom: 1.1rem;
+}
+input::placeholder {
+  color: #000;
+}
